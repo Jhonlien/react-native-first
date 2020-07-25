@@ -1,31 +1,27 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
+import React, {useState, useEffect} from 'react';
+import {View, StyleSheet} from 'react-native';
+import ActionBar from 'react-native-action-bar';
+// import SampleComponent from './component/sampleComponent';
+// import FlexBox from './component/flexBox';
+import Position from './component/position';
+import DynamicProps from './component/dynamicProps';
 
-import React, {Component} from 'react';
-import {AppRegistry, Text, View} from 'react-native';
-class Grettings extends Component{
-  render(){
-    return (
-      <Text> Hello {this.props.name} </Text>
-    );
-  }
+const App = () => {
+  // const [isShow, setIsShow] = useState(true);
+  // useEffect(()=>{
+  //   setTimeout(()=>{
+  //     setIsShow(false)
+  //   }, 6000);
+  // });
+  return (
+      <View>
+        <ActionBar title={'RN'}/>
+        {/* //{isShow && <Position/>  } */}
+        <DynamicProps />
+      </View>  
+  )
 }
-class App extends Component{
-  render(){
-    return (
-      <View style={{alignItems:"center"}}>
-        <Grettings name="Jhon"></Grettings>
-        <Grettings name="Nathan"></Grettings>
-        <Grettings name="Doe"></Grettings>
-      </View>
-    )
-  }
-}
-
 
 export default App;
+
+
