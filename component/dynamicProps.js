@@ -20,27 +20,27 @@ const DynamicProps = () => {
     <ScrollView horizontal={true}>
         <View style={styles.container}>
         <Story 
-            img = 'https://images.unsplash.com/photo-1554908081-267299e53de8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80'
+            img = 'https://placeimg.com/640/480/tech'
             judul = 'Text 1'
         />
          <Story 
-            img = 'https://images.unsplash.com/photo-1554908081-267299e53de8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80'
+            img = 'https://placeimg.com/640/480/tech'
             judul = 'Text 1'
         />
         <Story 
-            img = 'https://images.unsplash.com/photo-1554908081-267299e53de8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80'
+            img = 'https://placeimg.com/640/480/tech'
             judul = 'Text 1'
         />
         <Story 
-            img = 'https://images.unsplash.com/photo-1554908081-267299e53de8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80'
+            img = 'https://placeimg.com/640/480/tech'
             judul = 'Text 1'
         />
         <Story 
-            img = 'https://images.unsplash.com/photo-1554908081-267299e53de8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80'
+            img = 'https://placeimg.com/640/480/tech'
             judul = 'Text 1'
         />
         <Story 
-            img = 'https://images.unsplash.com/photo-1554908081-267299e53de8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80'
+            img = 'https://placeimg.com/640/480/tech'
             judul = 'Text 1'
         />
         <Story 
